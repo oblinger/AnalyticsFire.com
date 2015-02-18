@@ -1,0 +1,910 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import 
+"compass/reset",
+"webfonts",
+"bourbon/bourbon",
+"neat/neat",
+"base/base";
+
+$dark-blue: #3a474c;
+$light-blue: #75b5c1;
+$lighter-blue: #E8F1F3;
+$red: #eb426a;
+
+$proxima-light: "ProximaNova-Light", "Helvetica Neue", Arial, Sans-Serif;
+$proxima-regular: "ProximaNova-Regular", "Helvetica Neue", Arial, Sans-Serif;
+$proxima-bold: "ProximaNova-Bold", "Helvetica Neue", Arial, Sans-Serif;
+
+$mobile: new-breakpoint(max-width 720px);
+
+@mixin circle {
+    width: 210px;
+    height: 210px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    @include border-top-radius(200px);
+    @include border-bottom-radius(200px);
+    img {
+        position: absolute;
+    }
+}
+
+@mixin shadow {
+    -moz-box-shadow: 0px 2px 0px 0px #cfd7d8;
+    -webkit-box-shadow: 0px 2px 0px 0px #cfd7d8;
+    box-shadow: 0px 2px 0px 0px #cfd7d8;
+}
+
+@mixin paddit {
+    padding: 0 2.35765%;
+}
+
+html, body {
+    height: 100%;
+    background-color: $lighter-blue;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    @include media($mobile){
+    	font-size: 9px;
+    }
+}   
+
+h1 {
+    font-family: $proxima-light;
+    font-size: em(48px);
+    line-height: 1.25em;
+    text-align: center;
+    margin-bottom: 9px;
+    @include span-columns(10);
+    @include shift(1);
+}
+
+h2 {
+    font-family: $proxima-regular;
+    font-size: em(25px);
+    line-height: 1.5em;
+    text-align: center;
+    @include span-columns(8);
+    @include shift(2);
+}
+
+h3 {
+    font-family: $proxima-bold;
+    font-size: em(25px);
+    text-align: center;
+}
+
+h4 {
+    font-family: $proxima-bold;
+    font-size: em(20px);
+    margin-bottom: 22px;
+}
+
+h5 {
+    font-family: $proxima-bold;
+    font-size: em(14px);
+    margin-bottom: 22px;
+}
+
+b {
+    font-family: $proxima-bold;
+}
+
+p, input, textarea {
+    font-family: $proxima-regular;
+    font-size: em(16px);
+    line-height: 1.5em;
+    color: $dark-blue;
+}
+
+.button {
+    height: 60px;
+    @include border-top-radius(12px);
+    @include border-bottom-radius(12px);
+    @include shadow;
+    display: block;
+    text-align: center;
+    font-family: $proxima-bold;
+    color: #fff;
+    font-size: em(18px);
+    line-height: 60px;
+    letter-spacing: 0.1rem;
+    background-color: $light-blue;
+    &:hover {
+        color: #fff;
+        background-color: darken($light-blue, 12%);
+        @include transition(0.5s);
+    }
+    &:active {
+        background-color: darken($light-blue, 24%);
+    }
+    &:visited {
+        color: #fff;
+    }
+
+    @include media($mobile){
+    	height: 30px;
+    	line-height: 30px;
+    	@include border-top-radius(3px);
+    	@include border-bottom-radius(3px);
+    }
+}
+
+.find-out {
+    @include span-columns(4);
+    @include shift(4);
+    margin-top: 30px;
+}
+
+.row {
+    @include outer-container;
+    height: 100%;
+}
+
+#modal {
+    display: none;
+    height: 100%;
+    overflow-y: scroll !important;
+}
+
+/* Overlay */
+#simplemodal-overlay {
+    background-color: #000;
+}
+
+/* Container */
+#simplemodal-container {
+    height: 75%;
+    width: 600px;
+    color: $light-blue;
+    background-color: #fff;
+    @include border-top-radius(6px);
+    @include border-bottom-radius(6px);
+    h3 {
+        margin: 30px 0;
+    }
+    h4 {
+        text-align: center;
+    }
+    input, textarea {
+        @include span-columns(8);
+        @include shift(2);
+    }
+    input {
+        height: 50px;
+    }
+    textarea {
+        height: 150px;
+    }
+    .simplemodal-data {
+        padding: 8px;
+    }
+
+    a.modalCloseImg {
+        background: url(../img/modal-close.png) no-repeat;
+        width: 40px;
+        height: 40px;
+        display: inline;
+        z-index: 3200;
+        position: absolute;
+        top: -15px;
+        right: -16px;
+        cursor: pointer;
+    }
+    .button {
+        margin-top: 15px;
+        margin-bottom: 45px;
+    }
+	@include media($mobile){
+   		@include span-columns(10);
+    }
+}
+
+.thanks{
+    h3 { margin: 30px 0; }
+    h4 { text-align: center; }
+    display: none;
+}
+
+#contact{
+	.thanks{
+		@include span-columns(6 of 12);
+		display: none;
+	}
+	@include media($mobile){
+   		.thanks{
+			@include span-columns(8 of 12);
+			@include shift(2);
+			display: none;
+		}
+    }
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    z-index: 1000;
+    .logo-block {
+        @include span-columns(4);
+        @include paddit;
+        img.logo {
+        	width: 194px;
+        	display: block;
+            margin-top: 12px;
+        }
+    }
+    ul.nav {
+        @include span-columns(8);
+        @include paddit;
+        li {
+            float: right;
+            margin-left: 24px;
+            margin-top: 18px;
+            a {
+                font-family: $proxima-bold;
+                color: $dark-blue;
+                font-size: em(16px);
+                text-decoration: none;
+                @include transition(0.5s);
+                &:hover {
+                    color: $red;
+                }
+            }
+        }
+    }
+    @include media($mobile){
+    	height: 40px;
+
+    	.logo-block{
+			@include span-columns(12);
+        	img.logo{ 
+        		height: 30px;
+        		width: auto;
+        		margin: 7px auto 0;
+        	}
+    	}
+
+    	ul.nav{
+        	display:none;
+        }
+    }
+}
+
+#splash {
+    background: url("../img/splash@2x.jpg") no-repeat center center;
+    background-size: cover;
+    height: 845px;
+    position: relative;
+
+    h1 {
+        color: #fff;
+        margin-top: 180px;
+    }
+    .lines {
+        @include span-columns(12);
+        @include paddit;
+        height: 360px;
+        position: absolute;
+        bottom: 0;
+        .line-block {
+            @include span-columns(2);
+            height: 100%;
+            position: relative;
+        }
+        .line {
+            height: 7px;
+            background-color: white;
+            display: block;
+            position: absolute;
+        }
+        .line-block:nth-child(2) {
+            .line {
+                bottom: 132px;
+                left: -20px;
+                width: 135%;
+                @include media(min-width 768px) {
+                    @include transform(rotate(-34deg));
+                }
+
+                @include media(min-width 1024px) {
+                    @include transform(rotate(-27deg));
+                }
+            }
+        }
+        .line-block:nth-child(3) {
+            .line {
+                bottom: 153px;
+                left: -20px;
+                width: 135%;
+                @include media(min-width 768px) {
+                    @include transform(rotate(22deg));
+                }
+
+                @include media(min-width 1024px) {
+                    @include transform(rotate(15deg));
+                }
+            }
+        }
+        .line-block:nth-child(4) {
+            .line {
+                bottom: 227px;
+                left: -53px;
+                width: 175%;
+                @include media(min-width 768px) {
+                    @include transform(rotate(-50deg));
+                }
+
+                @include media(min-width 1024px) {
+                    @include transform(rotate(-45deg));
+                }
+            }
+        }
+        .line-block:nth-child(5) {
+            .line {
+                bottom: 336px;
+                left: -20px;
+                width: 135%;
+                @include media(min-width 768px) {
+                    @include transform(rotate(-17deg));
+                }
+
+                @include media(min-width 1024px) {
+                    @include transform(rotate(-16deg));
+                }
+            }
+        }
+    }
+    .circles {
+        @include span-columns(12);
+        @include paddit;
+        height: 360px;
+        position: absolute;
+        bottom: 0;
+        .circle-block {
+            @include span-columns(2);
+            height: 365px;
+        }
+        .circle-block:nth-child(1) {
+            @include shift(1);
+        }
+        .circle {
+            width: 45px;
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+        .circle-block:nth-child(1) {
+            .circle {
+                margin-top: 250px;
+            }
+        }
+        .circle-block:nth-child(2) {
+            .circle {
+                margin-top: 155px;
+            }
+        }
+        .circle-block:nth-child(3) {
+            .circle {
+                margin-top: 205px;
+            }
+        }
+        .circle-block:nth-child(4) {
+            .circle {
+                margin-top: 25px;
+            }
+        }
+        .circle-block:nth-child(5) {
+            .circle {
+                margin-top: -25px;
+            }
+        }
+    }
+    .graph {
+        @include span-columns(12);
+        @include paddit;
+        height: 360px;
+        position: absolute;
+        bottom: 0;
+        .bar-block {
+            @include span-columns(2);
+            height: 365px;
+        }
+        .bar-block:nth-child(1) {
+            @include shift(1);
+        }
+        .graph-bar {
+            width: 60px;
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+        .bar-block:nth-child(1) {
+            .graph-bar {
+                margin-top: 225px;
+            }
+        }
+        .bar-block:nth-child(2) {
+            .graph-bar {
+                margin-top: 135px;
+            }
+        }
+        .bar-block:nth-child(3) {
+            .graph-bar {
+                margin-top: 185px;
+            }
+        }
+        .bar-block:nth-child(4) {
+            .graph-bar {
+                margin-top: 91px;
+            }
+        }
+    }
+
+    @include media($mobile){
+		height: 90%;
+    	.lines, .circles, .graph{ display: none; }
+    }
+}
+
+#problem {
+    height: auto;
+    background-color: $lighter-blue;
+    padding-top: 90px;
+    padding-bottom: 150px;
+    position: relative;
+    z-index: 200;
+    h1 {
+        color: $light-blue;
+    }
+    h2 {
+        color: $dark-blue;
+    }
+    ul.graphs-block {
+        @include outer-container;
+        margin-top: 54px;
+        z-index: 200;
+        li {
+            @include span-columns(4);
+            position: relative;
+            z-index: 200;
+            .circle {
+                @include circle;
+                background-color: #fff;
+                img {
+                    position: absolute;
+                }
+            }
+        }
+        li:nth-child(1) {
+            @include shift(1);
+            img {
+                top: 53px;
+                left: 47px;
+            }
+        }
+        li:nth-child(2) {
+            @include shift(-1);
+            img {
+                top: 50px;
+                left: 35px;
+            }
+        }
+        li:nth-child(3) {
+            @include shift(-1);
+            img {
+                top: 47px;
+                left: 59px;
+            }
+        }
+    }
+    ul.arrow-block {
+        @include outer-container;
+        li {
+            @include span-columns(4);
+            text-align: center;
+            position: relative;
+            z-index: 100;
+        }
+        .arrow {
+            //width: 125px;
+       
+        }
+        li:nth-child(1) {
+            @include shift(1);
+            .arrow {
+                @include transform(rotate(45deg));
+                margin-left: 170px;
+            }
+        }
+        li:nth-child(2) {
+            @include shift(-1);
+            .arrow {
+                @include transform(rotate(90deg));
+                width: 180px;
+                position: relative;
+                top: -40px;
+            }
+        }
+        li:nth-child(3) {
+            @include shift(-1);
+            .arrow {
+                @include transform(rotate(135deg));
+                margin-right: 170px;
+            }
+        }
+    }
+
+    @include media($mobile){
+		padding: 30px 0;
+    	position: static;
+
+    	ul.graphs-block, ul.arrow-block{
+    		display: none;
+    	}
+    }
+}
+
+#trash-bar {
+    height: 242px;
+    width: 100%;
+    background-color: $dark-blue;
+    position: relative;
+    z-index: 300;
+    h2 {
+        color: #fff;
+    }
+    .text-container {
+        position: relative;
+        z-index: 500;
+        margin-top: -140px;
+    }
+    .trash-circle {
+        @include circle;
+        background-color: $dark-blue;
+        z-index: 400;
+        position: relative;
+        top: -105px;
+        img {
+            position: absolute;
+            top: 50px;
+            left: 70px;
+        }
+        img.trash {
+            opacity: 1;
+        }
+        img.trash-full {
+            opacity: 0;
+        }
+    }
+    b.trashed {
+        font-size: em(31px);
+    }
+
+    @include media($mobile){
+    	height: auto;
+    	padding: 30px 0;
+    	.text-container{
+    		margin-top: 0;
+    	}
+    	.trash-circle{
+    		display: none;
+    	}
+
+    }
+}
+
+#interstitial-image-a {
+    width: 100%;
+    height: 900px;
+    background: url("../img/hands.jpg") no-repeat center center;
+    background-color: $light-blue;
+    background-size: cover;
+    position: relative;
+    z-index: 100;
+    top: 0px;
+}
+
+#solution {
+    background-color: $lighter-blue;
+    padding: 90px 0 90px;
+    position: relative;
+    z-index: 200;
+    // margin-top: -400px; Add back when using intersitial-a
+
+    h1 {
+        color: $light-blue;
+    }
+    h2 {
+        color: $dark-blue;
+    }
+    h3 {
+        color: $light-blue;
+        margin: 20px 0px 10px;
+    }
+    h2.platform {
+        @include span-columns(8);
+        @include shift(2);
+        font-size: em(31px);
+        color: $light-blue;
+    }
+    p {
+        text-align: center;
+        margin-bottom: 45px;
+        padding: 0 5%;
+    }
+    ul.icons-block {
+        margin-top: 54px;
+        @include outer-container;
+        li {
+            @include span-columns(4);
+            position: relative;
+            .circle {
+                @include circle;
+                background-color: #fff;
+                img {
+                    position: absolute;
+                    height: 45%;
+                    width: auto;
+                }
+            }
+        }
+        li:nth-child(1) {
+            img {
+                top: 58px;
+                left: 65px;
+            }
+        }
+        li:nth-child(2) {
+            img {
+                top: 62px;
+                left: 70px;
+            }
+        }
+        li:nth-child(3) {
+            img {
+                top: 58px;
+                left: 53px;
+            }
+        }
+    }
+
+    @include media($mobile){
+    	margin-top: 0;
+    	padding: 30px 0;
+		ul.icons-block {
+	    	li{
+	    		@include span-columns(8 of 12);
+	    		@include shift(2);
+
+	    		p{
+	    			font-size: em(25px);
+	    		}
+	    	}
+    	}
+    }
+}
+
+#interstitial-image-b {
+    width: 100%;
+    height: 900px;
+    background: url("../img/cafe.jpg") no-repeat center center;
+    background-color: $light-blue;
+    background-size: cover;
+    position: relative;
+    z-index: 100;
+    top: 0px;
+}
+
+#about {
+    padding: 90px 0 180px;
+    height: auto;
+    position: relative;
+    z-index: 200;
+    margin-top: -400px;
+    background: url("../img/grid-bg.gif") repeat;
+    h1 {
+        color: $light-blue;
+        margin-bottom: 30px;
+    }
+    .row {
+        margin-top: 30px;
+    }
+    .nick-image-block {
+        @include span-columns(5);
+    }
+    .nick-bio {
+        @include span-columns(7);
+        @include paddit;
+    }
+    .dan-image-block {
+        @include span-columns(5);
+    }
+    .dan-bio {
+        @include span-columns(7);
+        @include paddit;
+    }
+    .bio-image {
+        @include circle;
+        background-color: $light-blue;
+        margin-top: 15px;
+    }
+
+    @include media($mobile){
+    	padding: 30px 0;
+    	margin-top: 0;
+
+	    .nick-image-block {
+	        @include span-columns(2);
+	        @include shift(1);
+	    }
+	    .nick-bio {
+	        @include span-columns(7);
+	        @include shift(1);
+	        padding: 0;
+	    }
+	    .dan-image-block {
+	        @include span-columns(2);
+	        @include shift(1);
+	    }
+	    .dan-bio {
+	        @include span-columns(7);
+	        @include shift(1);
+	        padding: 0;
+	    }
+	    .bio-image {
+	        @include circle;
+	        height: 70px;
+	        width: 70px;
+	        background-color: $light-blue;
+	        margin-top: 15px;
+	    }
+    }
+}
+
+#contact-bar {
+    height: 182px;
+    width: 100%;
+    background-color: $dark-blue;
+    position: relative;
+    z-index: 200;
+    .row {
+        position: relative;
+    }
+    .contact-circle {
+        @include circle;
+        background-color: $dark-blue;
+        position: relative;
+        top: -105px;
+        z-index: 100;
+        img.email {
+            top: 50px;
+            left: 70px;
+        }
+    }
+    h1 {
+        color: #fff;
+        line-height: 0px;
+        position: relative;
+        top: -120px;
+        z-index: 200;
+    }
+
+    @include media($mobile){
+    	height: 60px;
+    	padding: 0;
+
+    	.contact-circle{
+    		display: none;
+    	}
+
+    	h1{
+    		position: static;
+    		line-height: 60px;
+    	}
+    }
+}
+
+#contact {
+    position: relative;
+    background-color: $lighter-blue;
+    height: auto;
+    padding-bottom: 90px;
+
+    form {
+        @include span-columns(6);
+        @include paddit;
+        input, textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        input {
+            height: 50px;
+        }
+        textarea {
+            height: 182px;
+        }
+        .button {
+            width: 100%;
+        }
+    }
+    .address-block {
+        @include span-columns(5);
+        @include shift(1);
+        @include pad(0 default);
+        font-family: $proxima-bold;
+        color: $dark-blue;
+        font-size: em(23px);
+        border-left: #c3cbcd 1px solid;
+        height: 100%;
+        li.label {
+            font-size: em(15px);
+            letter-spacing: 0.1rem;
+            margin-bottom: 15px;
+            color: lighten($dark-blue, 24%);
+        }
+    }
+
+    @include media($mobile){
+    	padding: 30px 0;
+
+    	form{
+			@include span-columns(8 of 12);
+			@include shift(2);
+    	}
+
+    	.address-block {
+    		margin-top: 30px;
+			@include span-columns(8 of 12);
+			@include shift(2);
+			text-align: center;
+			border-left: #c3cbcd 0px solid;
+    	}
+    }
+}
+
+footer {
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    h5 {
+        color: $dark-blue;
+        text-align: center;
+    }
+
+    @include media($mobile){
+    	height: 40px;
+    	padding-top: 13px;
+    }
+
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* html .clearfix {
+    zoom: 1;
+}
+
+/* IE6 */
+*:first-child + html .clearfix {
+    zoom: 1;
+}
+
+/* IE7 */

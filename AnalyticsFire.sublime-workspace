@@ -1,0 +1,619 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ov",
+				"ovx	overflow-x: ${1:hidden};"
+			],
+			[
+				"ba",
+				"bga-f	background-attachment: fixed;"
+			],
+			[
+				"Proxima-Regular",
+				"ProximaNova-Regular"
+			],
+			[
+				"marg",
+				"margin-left: "
+			],
+			[
+				"em",
+				"embed	Tag"
+			],
+			[
+				"mar",
+				"margin-top: "
+			],
+			[
+				"margin",
+				"margin-right: "
+			],
+			[
+				"re",
+				"red"
+			],
+			[
+				"tr",
+				"transform	Bourbon"
+			],
+			[
+				"sc",
+				"scroll"
+			],
+			[
+				"light",
+				"light-blue"
+			],
+			[
+				"padding",
+				"padding-bottom: "
+			],
+			[
+				"P",
+				"Proxima-Semi"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"n",
+				"new-breakpoint	Bourbon-Neat"
+			],
+			[
+				"bac",
+				"background-size: "
+			],
+			[
+				"arrow",
+				"arrow-right"
+			],
+			[
+				"ma",
+				"margin-top: "
+			],
+			[
+				"bor",
+				"border-radius	Compass"
+			],
+			[
+				"pa",
+				"padding-bottom: "
+			],
+			[
+				"te",
+				"text-align: "
+			],
+			[
+				"li",
+				"light-grey"
+			],
+			[
+				"font",
+				"font-size: "
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"bot",
+				"border-bottom: "
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"box",
+				"box-sizing: "
+			],
+			[
+				"text",
+				"text-decoration: "
+			],
+			[
+				"bo",
+				"border-left: "
+			],
+			[
+				"pad",
+				"padding: "
+			],
+			[
+				"l",
+				"line-height: "
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"tex",
+				"text-transform: "
+			],
+			[
+				"b",
+				"blue"
+			],
+			[
+				"p",
+				"Proxima-Bold"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"dark",
+				"darker-blue"
+			],
+			[
+				"tran",
+				"transition	Bourbon"
+			],
+			[
+				"s",
+				"solid"
+			],
+			[
+				"t",
+				"trans-white"
+			],
+			[
+				"tra",
+				"transition: "
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"background",
+				"background-color: "
+			],
+			[
+				"dar",
+				"dark-blue"
+			],
+			[
+				"ligh",
+				"light-blue"
+			],
+			[
+				"min",
+				"min-width: "
+			],
+			[
+				"max",
+				"max-width: "
+			],
+			[
+				"ali",
+				"text-align: "
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 14221,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/screen.scss",
+			"settings":
+			{
+				"buffer_size": 21780,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 2961,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jessebones/Desktop/SITES/AnalyticsFire/sass/screen-02.scss",
+		"/Users/jessebones/Desktop/SITES/AnalyticsFire/index.html",
+		"/Users/jessebones/Desktop/SITES/AnalyticsFire/sass/_webfonts.scss",
+		"/Users/jessebones/Desktop/SITES/AnalyticsFire/sass/neat/settings/_visual-grid.scss",
+		"/Users/jessebones/Desktop/SITES/AnalyticsFire/js/main.js",
+		"/Users/jessebones/Desktop/SITES/AnalyticsFire/sass/neat/settings/_grid.scss",
+		"/Users/jessebones/Desktop/SITES/NetEase Forum/css/screen.css",
+		"/Users/jessebones/Desktop/SITES/NetEase Forum/index.html",
+		"/Users/jessebones/Desktop/SITES/NetEase Forum/sass/screen.scss",
+		"/Users/jessebones/Desktop/SITES/NetEase Forum/sass/screen_02.scss",
+		"/Users/jessebones/Desktop/SITES/NetEase Forum/index_02.html",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2/ninja-must-die-2-site.git/sass/screen.scss",
+		"/Users/jessebones/Desktop/SITES/AnalyticsFire/sass/screen.scss",
+		"/Users/jessebones/Desktop/SITES/AnalyticsFire/js/jquery.simplemodal.1.4.4.min.js",
+		"/Users/jessebones/Desktop/SITES/AnalyticsFire/img/arrow.svg",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2-Jesse/Jesse/index.php",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2-Jesse/Jesse/partials/userContent.html",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2-Jesse/Jesse/partials/gallery-sm.html",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2-Jesse/Jesse/js/gallery-sm.js",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2-Jesse/Jesse/sass/screen.scss",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2-Jesse/Jesse/sass/slick.scss",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2-Jesse/Jesse/bower_components/slick.js/slick/slick.css",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2-Jesse/Jesse/css/slick.css",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2-Jesse/Jesse/partials/splash.php",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2-Jesse/Jesse/partials/header.php",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2-Jesse/Jesse/partials/gallery-bg.html",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2-Jesse/Jesse/partials/blog.php",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2-Vincent/sass/screen.scss",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2/sass/screen.scss",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2-Vincent/index.php",
+		"/Users/jessebones/Desktop/test.php",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2-Vincent/test.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/resources/sass/config/_compositeFactor.scss",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2-Vince/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/resources/sass/_colors.scss",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2/index.html",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2/sass/_webfonts.scss",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2/img/scaled-at-200/netease-logo@2x.png",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2/js/main.js",
+		"/Users/jessebones/Desktop/SITES/NinjaMustDie2/js/plugins.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/resources/sass/editInsight.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/resources/sass/_popup.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/resources/sass/config/_summary.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/base/resources/sass/_common-forms.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/html5/lib/touch/resources/css/apple.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/resources/sass/_navigation.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/resources/sass/_header.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/resources/sass/config/_factor.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/resources/sass/config/_config.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/resources/sass/_dropdown.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/resources/sass/config/_general.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/resources/sass/_simulate.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/resources/sass/config/_output.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/resources/sass/config/_mixins.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/resources/sass/summaryConfig/_listConfigs.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/resources/sass/summaryConfig/_header.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/versiontwo/client/SEConfig/config.rb",
+		"/Applications/XAMPP/xamppfiles/htdocs/SEConfig/resources/sass/_simulate.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/SEConfig/resources/sass/config/_general.scss",
+		"/Users/jessebones/Desktop/SITES/Aktana/MAIN/versiontwo/client/SEConfig/resources/sass/summaryConfig/_summary.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/SEConfig/resources/sass/_messaging.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/SEConfig/resources/sass/summaryConfig/_header.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/SEConfig/resources/sass/_header.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/SEConfig/resources/sass/config/_compositeFactor.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/SEConfig/resources/sass/_dropdown.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/SEConfig/resources/sass/_colors.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/SEConfig/resources/sass/config/_factor.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/SEConfig/resources/sass/summaryConfig/_listConfigs.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/base/themes/base/jquery.ui.theme.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/SEConfig/resources/sass/config/_config.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/SEConfig/resources/sass/_navigation.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/SEConfig/resources/sass/_colors"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"thanks",
+			"display",
+			"media",
+			"6",
+			"40",
+			"line-height",
+			"font-size",
+			"1px solid rgba(0,0,0,0.2);",
+			"blue",
+			"pad",
+			"trigger",
+			".row",
+			"input",
+			"color",
+			"white",
+			"fff",
+			"attribute",
+			";\n",
+			"h5",
+			"h3",
+			".content",
+			"title",
+			"en",
+			"em",
+			"90",
+			"22px",
+			"line-height",
+			".line-height",
+			".line-hieght",
+			".line-height",
+			"13px ",
+			"font-size",
+			"font",
+			"line",
+			".config-buttons",
+			"#appW",
+			".navig",
+			"TEXTbox",
+			"TEXT",
+			"margin-bo",
+			"line-height: 16px;",
+			"line-height: 18px;",
+			"line-height: 16px;",
+			"line-height: 18px;",
+			"line-height:16px;",
+			"line-height: 16px;",
+			"13",
+			"18",
+			"margin-top",
+			"margin-tio",
+			"-4.5px",
+			"-4.5",
+			".title",
+			"label",
+			"textbox",
+			"2px",
+			"border",
+			"letter-spacing",
+			"13",
+			"label",
+			"radial",
+			"radi",
+			"loginWrapper",
+			"hover",
+			"line-height",
+			"#appWrapper",
+			".icon",
+			".sb-select",
+			"385D82",
+			"letter-spa",
+			"filter-title",
+			"borderColorHover",
+			"letter",
+			"new-config",
+			"ui",
+			"ui-tabs",
+			"hover",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$divider-line;",
+			"line-height: 18px;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 14221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7721,
+								7721
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1524.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/screen.scss",
+					"settings":
+					{
+						"buffer_size": 21780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5160,
+								5160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3076.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 2961,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								293,
+								293
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
