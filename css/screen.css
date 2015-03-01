@@ -1343,14 +1343,14 @@ header {
   #contact .address-block {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 40.29137%;
-    margin-left: 8.5298%;
+  /*  margin-right: 2.35765%; */
+    width: 100%;
+   /* margin-left: 8.5298%; */
     padding: 0 2.35765%;
     font-family: "ProximaNova-Bold", "Helvetica Neue", Arial, Sans-Serif;
     color: #3a474c;
     font-size: 1.4375em;
-    border-left: #c3cbcd 1px solid;
+    /* border-left: #c3cbcd 1px solid; */
     height: 100%; }
     #contact .address-block:last-child {
       margin-right: 0; }
