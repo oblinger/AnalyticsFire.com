@@ -504,7 +504,7 @@ p, input, textarea {
   width: 95%; }
   @media screen and (min-width: 53.75em) {
     .modal .modal-inner {
-      width: 50%; } }
+      width: 80%; } }
   .modal .modal-inner h1 {
     color: #333;
     margin-bottom: 0.6em;
