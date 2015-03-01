@@ -492,7 +492,7 @@ p, input, textarea {
   -webkit-transition: opacity 0.25s ease;
   -moz-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
-  background: white;
+  background: #eeeeee;
   border-radius: 3px;
   margin-top: 0;
   margin: auto;
