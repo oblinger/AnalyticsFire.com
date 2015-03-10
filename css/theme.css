@@ -50,6 +50,7 @@ html{
 }
 
 .wufoo input.text, .wufoo textarea.textarea{
+	width: 100%;
 }
 
 .wufoo .instruct{
