@@ -4,7 +4,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url("//hello.myfonts.net/count/2c264d");
-html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -504,7 +504,7 @@ p, input, textarea {
   width: 95%; }
   @media screen and (min-width: 53.75em) {
     .modal .modal-inner {
-      width: 50%; } }
+      width: 80%; } }
   .modal .modal-inner h1 {
     color: #333;
     margin-bottom: 0.6em;
@@ -1350,7 +1350,7 @@ header {
     font-family: "ProximaNova-Bold", "Helvetica Neue", Arial, Sans-Serif;
     color: #3a474c;
     font-size: 1.4375em;
-    border-left: #c3cbcd 1px solid;
+    /* border-left: #c3cbcd 1px solid; */
     height: 100%; }
     #contact .address-block:last-child {
       margin-right: 0; }
@@ -1378,7 +1378,7 @@ header {
         width: 65.88078%;
         margin-left: 17.05961%;
         text-align: center;
-        border-left: #c3cbcd 0px solid; }
+       /* border-left: #c3cbcd 0px solid; } */
         #contact .address-block:last-child {
           margin-right: 0; } }
 
